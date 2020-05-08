@@ -1,4 +1,60 @@
-body {
-    font-family: 'Tangerine', serif;
+@font-face {
+    font-family: 'Varela Round', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Raleway&family=Roboto&family=Varela+Round&display=swap');
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+    font-family: 'Varela Round';
     font-size: 48px;
-  }
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+ul {
+    list-style-type: none;
+    font-family: 'Varela Round';
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+li {
+    display: inline;
+    width: 33%;
+    text-align: center;
+}
+
+li a {
+    color: grey;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #33cccc;
+}
+
+.navBar {
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    align-self: center;
+    justify-content: center;
+}
+
+.pageHeader {
+    position: sticky;
+}
+
+p {
+    font-family: 'Raleway';
+    font-size: 20px;
+}
