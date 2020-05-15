@@ -7,29 +7,29 @@
     src: url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Raleway&family=Roboto&family=Varela+Round&display=swap');
 }
 
+html, body { height: 100%; width: 100%; margin: 0; }
+
 h1 {
     position: relative;
     text-align: center;
     font-family: 'Varela Round';
     font-size: 48px;
     margin-top: 2%;
-    margin-bottom: 4%;
+    margin-bottom: 3%;
 }
 
 ul {
     list-style-type: none;
     font-family: 'Varela Round';
-    margin: 0;
-    padding: 0;
     font-size: 24px;
     display: flex;
     justify-content: center;
-    
 }
 
 li {
     display: inline;
     text-align: center;
+    width: 20%;
 }
 
 li a {
@@ -39,22 +39,77 @@ li a {
 
 li a:hover {
     color: #33cccc;
-    font-size: 30px;
 }
+
 
 .navBar {
     position: absolute;
-    height: 10%;
     width: 100%;
     align-self: center;
     justify-content: center;
+    margin-bottom: 100px;
+    z-index: 1;
 }
 
 .pageHeader {
     position: sticky;
+    top: 0px;
+    background-color: white;
+    height: 25%;
 }
 
 p {
     font-family: 'Raleway';
     font-size: 20px;
+    z-index: 500;
+}
+
+
+img {
+    border-radius: 50px;
+    margin-left: 5%;
+}
+
+
+.introInfo{
+    position: absolute;
+    width: 50%;
+    height: 70%;
+    left: 40%;
+    top: 40%;
+}
+
+h3 {
+    font-family: 'Raleway';
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.aboutMeLine{
+    flex-direction: row;
+    display: flex;
+}
+
+h4 {
+    font-family: 'Raleway';
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.aboutMeSubjectContainer {
+    position: absolute;
+    line-height: 28px;
+    text-align: left;
+    left: 10%;
+    width: 30%;
+    padding: 20px;
+}
+
+.aboutMeInfoContainer {
+    position: absolute;
+    line-height: 28px;
+    text-align: left;
+    left: 30%;
+    width: 30%;
+    padding: 20px;
 }
