@@ -106,7 +106,7 @@ h5 {
     text-align: left;
     top: 25%;
     left: 10%;
-    width: 30%;
+    width: 20%;
     padding: 20px;
 }
 
@@ -116,7 +116,7 @@ h5 {
     text-align: left;
     top: 25%;
     left: 30%;
-    width: 30%;
+    width: 20%;
     padding: 20px;
 }
 
@@ -189,6 +189,16 @@ a {
     color: black;
 }
 
+#close{
+    display: block;     
+    height: 30px; 
+    width: 30px;   
+}
+
 a:hover{
     color: #33cccc;
+}
+
+p{
+    padding: 5px;
 }
