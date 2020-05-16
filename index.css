@@ -128,6 +128,10 @@ img#aboutMe {
     vertical-align: middle;
 }
 
+img#rotate{
+    transform: rotate(270deg);
+}
+
 .map{
     position: absolute;
     left: 50%;
