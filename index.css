@@ -37,11 +37,6 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
-    color: #33cccc;
-}
-
-
 .navBar {
     position: absolute;
     width: 100%;
@@ -65,7 +60,7 @@ p {
 }
 
 
-img {
+img#main {
     border-radius: 50px;
     margin-left: 5%;
 }
@@ -93,13 +88,23 @@ h3 {
 h4 {
     font-family: 'Raleway';
     font-size: 20px;
+    font-weight: bolder;
+    margin: 20px;
+    pointer-events: all;
+}
+
+h5 {
+    font-family: 'Raleway';
+    font-size: 20px;
     font-weight: lighter;
+    margin: 20px;
 }
 
 .aboutMeSubjectContainer {
     position: absolute;
-    line-height: 28px;
+    line-height: 35px;
     text-align: left;
+    top: 25%;
     left: 10%;
     width: 30%;
     padding: 20px;
@@ -107,9 +112,83 @@ h4 {
 
 .aboutMeInfoContainer {
     position: absolute;
-    line-height: 28px;
+    line-height: 35px;
     text-align: left;
+    top: 25%;
     left: 30%;
     width: 30%;
     padding: 20px;
+}
+
+img#aboutMe {
+    margin-right: 5%;
+    vertical-align: middle;
+}
+
+.map{
+    position: absolute;
+    left: 50%;
+}
+
+
+.modal {
+    font-family: 'Raleway';
+	position: absolute;
+	z-index: 99999;
+    opacity:0;
+}
+
+.modal:target {
+    opacity:1; 
+    pointer-events: auto;
+}
+
+.modal > div {
+    left: 30%;
+    width: 600px;
+    height: 400px;
+    
+	margin: 10%;
+    border-radius: 10px;
+    background-color: #b8cccc;
+}
+
+#openModalName.modal{
+    left: 25%;
+    top: 20%;
+}
+
+#openModalHome.modal{
+    left: 25%;
+    top: 20%;
+}
+
+#openModalPets.modal{
+    left: 25%;
+    top: 20%;
+}
+
+#openModalFood.modal{
+    left: 25%;
+    top: 20%;
+}
+
+#openModalColor.modal{
+    left: 25%;
+    top: 20%;
+}
+
+#openModalSport.modal{
+    left: 25%;
+    top: 20%;
+}
+
+a {
+    z-index: 1;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: #33cccc;
 }
