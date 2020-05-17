@@ -265,3 +265,7 @@ span#small{
 span#medium{
     font-size: 50px;
 }
+
+ul#small{
+    font-size: 18px;
+}
